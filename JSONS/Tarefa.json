@@ -1,11 +1,13 @@
+// Objeto: Tarefa
+// Representa uma tarefa criada pelo usuário no planner semanal, permitindo a organização de atividades e o status de conclusão.
 {
-  "id": "id da tarefa",
-  "usuario_id": "id do usuário dono da tarefa",
-  "nome": "Nome da tarefa",
-  "descricao": "Descrição detalhada da tarefa",
-  "dia": "Dia da semana para a tarefa (ex: Segunda-feira)",
-  "horario": "Horário da tarefa (ex: 14:00)",
-  "categoria": "Categoria da tarefa, representada por uma cor ou tag (ex: pessoal, trabalho, urgente)",
-  "concluido": "true/false, indica se a tarefa foi concluída",
-  "data_criacao": "Data de criação da tarefa"
+  "id": "id da tarefa",                    // Identificador único da tarefa
+  "usuario_id": "id do usuário",           // ID do usuário dono da tarefa
+  "nome": "Nome da tarefa",                // Nome da tarefa (ex: "Reunião de projeto")
+  "descricao": "Descrição da tarefa",      // Descrição completa da tarefa
+  "dia": "Dia da semana",                  // Dia designado para a tarefa (ex: "Segunda-feira")
+  "horario": "Horário da tarefa",          // Horário designado (ex: "14:00")
+  "categoria": "Categoria da tarefa",      // Categoria (ex: "trabalho", "pessoal")
+  "concluido": "true/false",               // Status de conclusão
+  "data_criacao": "Data de criação"        // Data de criação da tarefa
 }
