@@ -1,7 +1,9 @@
+// Objeto: Usuário
+// Representa o usuário do sistema e armazena informações necessárias para cadastro e autenticação.
 {
-  "id": "id do usuário",
-  "nome": "Nome do usuário",
-  "email": "Email do usuário",
-  "senha": "Senha do usuário (encriptada no backend)",
-  "data_criacao": "Data de criação do usuário"
+  "id": "id do usuário",                   // Identificador único do usuário
+  "nome": "Nome do usuário",               // Nome completo do usuário
+  "email": "Email do usuário",             // Email utilizado para login
+  "senha": "Senha do usuário",             // Senha encriptada no backend
+  "data_criacao": "Data de criação"        // Data de registro do usuário
 }
