@@ -1,0 +1,9 @@
+// Objeto: Notificação
+// Representa uma notificação configurada para alertar o usuário sobre tarefas, com mensagens de lembrete e status de envio.
+{
+  "id": "id da notificação",               // Identificador único da notificação
+  "tarefa_id": "id da tarefa",             // ID da tarefa associada à notificação
+  "mensagem": "Mensagem de notificação",   // Lembrete (ex: "Reunião em 30 minutos")
+  "data_envio": "Data e hora de envio",    // Data e hora programada para envio
+  "status": "Status da notificação"        // Status (ex: "pendente", "enviada")
+}
