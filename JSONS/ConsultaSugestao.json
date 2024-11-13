@@ -1,7 +1,9 @@
+// Objeto: Sugestão de Tarefa (ChatGPT)
+// Este objeto representa uma sugestão gerada pela IA (ChatGPT) para o usuário, baseada em suas preferências ou histórico.
 {
-  "id": "id da sugestão",
-  "usuario_id": "id do usuário",
-  "dia": "Dia sugerido para a tarefa",
-  "sugestao_texto": "Texto da sugestão gerada pela IA (ex: 'Ler um livro de desenvolvimento pessoal')",
-  "categoria_sugerida": "Categoria da sugestão, como trabalho ou pessoal"
+  "id": "id da sugestão",                  // Identificador único da sugestão
+  "usuario_id": "id do usuário",           // ID do usuário recebendo a sugestão
+  "dia": "Dia sugerido",                   // Dia sugerido para realizar a tarefa
+  "sugestao_texto": "Texto da sugestão",   // Conteúdo sugerido (ex: "Ler um artigo")
+  "categoria_sugerida": "Categoria sugerida" // Categoria da sugestão (ex: "pessoal")
 }
