@@ -1,0 +1,7 @@
+{
+  "id": "id da sugestão",
+  "usuario_id": "id do usuário",
+  "dia": "Dia sugerido para a tarefa",
+  "sugestao_texto": "Texto da sugestão gerada pela IA (ex: 'Ler um livro de desenvolvimento pessoal')",
+  "categoria_sugerida": "Categoria da sugestão, como trabalho ou pessoal"
+}
