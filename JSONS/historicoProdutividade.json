@@ -1,0 +1,10 @@
+// Objeto: Histórico de Produtividade
+// Armazena o desempenho semanal do usuário, incluindo tarefas completadas, pendentes e sugestões para aprimorar a produtividade.
+{
+  "id": "id do histórico",                 // Identificador único do histórico
+  "usuario_id": "id do usuário",           // ID do usuário dono do histórico
+  "periodo": "Período monitorado",         // Período do histórico (ex: "Semana 45 de 2024")
+  "tarefas_completadas": "Número de tarefas concluídas", // Total de tarefas completadas no período
+  "tarefas_pendentes": "Número de tarefas pendentes",    // Total de tarefas não concluídas no período
+  "recomendacoes": "Sugestões de melhorias" // Sugestões de produtividade para a próxima semana
+}
