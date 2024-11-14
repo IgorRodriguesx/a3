@@ -1,0 +1,29 @@
+BASE DE ESTRUTURAÇÃO INICIAL
+
+
+task-service/
+│
+├── src/
+│   ├── controllers/
+│   │   └── taskController.js        # Controlador para gerenciar as operações com as tarefas
+│   │
+│   ├── models/
+│   │   └── taskModel.js             # Modelo de dados para definir o esquema da tarefa
+│   │
+│   ├── routes/
+│   │   └── taskRoutes.js            # Rotas HTTP para operações de tarefas (CRUD)
+│   │
+│   ├── services/
+│   │   └── taskService.js           # Lógica de negócios para tarefas (conexão com o banco de dados, etc.)
+│   │
+│   ├── events/
+│   │   └── eventPublisher.js        # Função para publicar eventos no barramento (ex: RabbitMQ)
+│   │
+│   ├── config/
+│   │   └── database.js              # Configuração do banco de dados
+│   │
+│   └── app.js                       # Configuração do aplicativo e integração das rotas
+│
+├── .env                             # Variáveis de ambiente para banco de dados e barramento de eventos
+├── package.json                     # Dependências do projeto
+└── README.md                        # Documentação do serviço
