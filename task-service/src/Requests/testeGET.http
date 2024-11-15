@@ -1,0 +1,3 @@
+// Testar a requisição de todas as tarefas (GET)
+
+GET http://localhost:3000/task

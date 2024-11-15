@@ -1,0 +1,3 @@
+// Testar a remoção de uma tarefa (DELETE)
+
+DELETE http://localhost:3000/task/6781c967-63fb-4163-ae30-288ddf2865f1

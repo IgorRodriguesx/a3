@@ -1,0 +1,11 @@
+
+// Testar a criação e envio de uma tarefa (POST)
+
+POST http://localhost:3000/task
+Content-Type: application/json
+
+{
+  "name": "Ler Livro de React",
+  "date": "2024-12-01",
+  "category": "Leitura"
+}
