@@ -1,0 +1,11 @@
+// Testar a atualização de uma tarefa (PATCH)
+
+PATCH http://localhost:3000/task/d9c4eb76-8a86-4083-b841-7346e416b3e2
+Content-Type: application/json
+
+{
+  "name": "Estudar NodeJS Avançado",
+  "date": "2024-11-20T00:00:00.000Z",
+  "category": "Estudos",
+  "completed": true
+}
