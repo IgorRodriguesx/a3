@@ -1,0 +1,16 @@
+ESTRUTURAÇÃO INICIAL
+MICROSSERVIÇO USUÁRIO
+
+
+user-service/
+│
+├── config/           # Configuração do banco de dados
+│   └── database.js
+├── models/           # Modelos do Sequelize
+│   └── user.js
+├── routes/           # Rotas
+│   └── userRoutes.js
+├── controllers/      # Controladores (opcional, para lógica de negócio)
+├── app.js            # Entrada do aplicativo
+├── .env              # Variáveis de ambiente
+└── package.json      # Configurações do projeto
