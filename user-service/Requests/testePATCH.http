@@ -1,0 +1,9 @@
+PATCH http://localhost:3001/users/5c9cdae2-f245-43e6-b5be-f7ff66451de1
+Content-Type: application/json
+
+{
+  "name": "Bianca Rodrigues de souza",
+  "email": "8221386112@ulife.com.br",
+  "password": "135125ssssssssss"
+}
+

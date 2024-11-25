@@ -1,0 +1,10 @@
+### Testando a criação da descrição do usuário
+POST http://localhost:3001/users/generate-description
+Content-Type: application/json
+
+{
+  "name": "Igor Rodrigues",
+  "age": 20,
+  "interests": ["tecnologia", "inovação", "programação", "academia"]
+}
+
