@@ -58,7 +58,8 @@ ProjetoBackend/
 
 1. Task Service
 Descrição: Serviço responsável por gerenciar tarefas. Implementa um CRUD básico para criação, leitura, atualização e exclusão de tarefas.
-Arquivos principais:
+
+--Arquivos principais:
 task.js: Define o modelo das tarefas.
 rota.js: Contém as rotas de API relacionadas às tarefas.
 rabbitmq.js: Configuração para integração com o RabbitMQ.
