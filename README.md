@@ -59,18 +59,27 @@ ProjetoBackend/
 1. Task Service
 Descrição: Serviço responsável por gerenciar tarefas. Implementa um CRUD básico para criação, leitura, atualização e exclusão de tarefas.
 
---Arquivos principais:
+Arquivos principais:
+
 task.js: Define o modelo das tarefas.
+
 rota.js: Contém as rotas de API relacionadas às tarefas.
+
 rabbitmq.js: Configuração para integração com o RabbitMQ.
+
 app.js: Configuração do servidor e middleware.
 
 2. User Service
 Descrição: Serviço para gerenciar usuários e gerar descrições personalizadas utilizando a API do ChatGPT.
+
 Arquivos principais:
+
 user.js: Define o modelo dos usuários.
+
 userRoutes.js: Define as rotas relacionadas aos usuários.
+
 chatGptService.js: Integração com a API do ChatGPT para geração de descrições.
+
 rabbitmq.js: Configuração para integração com o RabbitMQ.
 
 🛠️ Configuração do Ambiente
@@ -81,15 +90,15 @@ Certifique-se de ter os seguintes softwares instalados:
 Node.js (v18+)
 RabbitMQ
 Banco de dados relacional (PostgreSQL ou MySQL)
+
 Configuração dos Arquivos .env
 Task Service
 Local: task-service/src/.env
-env
 
 RABBITMQ_URL=amqp://localhost
+
 User Service
 Local: user-service/.env
-env
 
 OPENAI_API_KEY=<sua-chave-da-api>
 RABBITMQ_URL=amqp://localhost
@@ -110,11 +119,10 @@ npm install
 2. Subir o RabbitMQ
 Caso utilize Docker, rode o seguinte comando:
 
-
 docker run -d --name rabbitmq -p 5672:5672 -p 15672:15672 rabbitmq:3-management
+
 3. Inicializar os Serviços
 Inicie cada serviço em terminais separados:
-
 
 # Task Service
 cd task-service/src
@@ -139,6 +147,7 @@ Task Service
 
 testeCRIACAO.http: Testa a criação de tarefas.
 testeGET.http: Testa a recuperação de tarefas.
+
 User Service
 
 testePOST.http: Testa a criação de usuários.
